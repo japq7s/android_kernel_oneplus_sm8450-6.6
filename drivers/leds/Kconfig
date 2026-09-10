@@ -965,4 +965,7 @@ source "drivers/leds/trigger/Kconfig"
 comment "Simple LED drivers"
 source "drivers/leds/simple/Kconfig"
 
+# FORWARDPORT z 5.10: dioda oddechowa AW210XX, na magistrali I2C SE2.
+source "drivers/leds/aw210xx/Kconfig"
+
 endif # NEW_LEDS
